@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+    grid-template-columns: 5fr 1fr;
+    line-height: 30px;
+}
+
+.leftSide {
+    padding: 0px 10px;
+}
+
+.rightSide {
+    color: white;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+}
+
+.name {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.basicInfo {
+    text-align: left;
+}
+
+.basicInfo .windIcon {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.basicInfo span {
+    padding-right: 10px;
+}
+
+.powerInfo {
+    text-align: left;
+}
+
+.progressInfo {
+    margin-top: 10px;
+}
+
+.rightSide .st {
+    background-color: red;
+}
+
+.rightSide .wa {
+    background-color: orange;
+}
+
+.rightSide .av {
+    background-color: turquoise;
+}
+
+.rightSide .nc {
+    background-color: grey;
+}
+
+.progressBar {
+    background-color: grey !important;
+    height: 20px !important;
+}
+
+.progressBar span {
+    background-color: turquoise !important;
+}
+
+.powerPercentage {
+    position: absolute;
+    margin-top: -25px;
+    color: white;
+    font-weight: bold;
+}
